@@ -11,19 +11,19 @@ To use this, just include the `Arch1v3sColors.hpp` file in your project.
    ```c++
    std::string Arch1v3::paint(std::string string, Arch1v3::Color color)
    ```  
-   Adds the color code corresponding to the color name provided to the beginning of the provided string, and the reset color code to the end.  
+   Adds the color code corresponding to the color name provided to the beginning of the provided string, and the reset color code to the end.  <br>
 3. **bold**  
    ```c++
    std::string Arch1v3::bold(std::string string)
    ```  
-   Adds the color code for bold text to the beginning of the provided string, and the reset color code to the end.  
+   Adds the color code for bold text to the beginning of the provided string, and the reset color code to the end.  <br>
 5. **paintBold**.  
    ```c++
    std::string Arch1v3::paintBold(std::string string, Arch1v3::Color color)
    ```  
-   Adds the color codes for bold text and the color corresponding to the color name provided to the beginning of the provided string, and the reset color code to the end.
+   Adds the color codes for bold text and the color corresponding to the color name provided to the beginning of the provided string, and the reset color code to the end.  <br>
 7. **paintBackground**
    ```c++
    std::string Arch1v3::paintBackground(std::string string, Arch1v3::Color text , Arch1v3::Color background)
    ```
-   Adds the two color codes corresponding to the provided color names to the beginning of the string, and the reset color code to the end. The order of the provided color codes does not matter, first `background` then `text` will also work. 
+   Adds the two color codes corresponding to the provided color names to the beginning of the string, and the reset color code to the end. The order of the provided color codes does not matter, first `background` then `text` will also work.  <br>
